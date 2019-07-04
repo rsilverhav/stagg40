@@ -105,6 +105,39 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# keyboard_parts_CONN_3X2
+#
+DEF keyboard_parts_CONN_3X2 P 0 40 Y N 1 F N
+F0 "P" 0 200 50 H V C CNN
+F1 "keyboard_parts_CONN_3X2" 0 0 40 V V C CNN
+F2 "" 0 -50 60 H V C CNN
+F3 "" 0 -50 60 H V C CNN
+DRAW
+S -100 150 100 -150 0 1 0 N
+X 1 1 -400 100 300 R 60 60 1 1 P I
+X 2 2 400 100 300 L 60 60 1 1 P I
+X 3 3 -400 0 300 R 60 60 1 1 P I
+X 4 4 400 0 300 L 60 60 1 1 P I
+X 5 5 -400 -100 300 R 60 60 1 1 P I
+X 6 6 400 -100 300 L 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# keyboard_parts_D
+#
+DEF keyboard_parts_D D 0 40 Y Y 1 F N
+F0 "D" -150 -50 60 V V C CNN
+F1 "keyboard_parts_D" 150 -50 60 V I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -100 0 100 0 N
+P 4 0 1 0 0 0 -100 -100 100 -100 0 0 F
+X ~ 1 0 50 50 D 60 60 1 1 P
+X ~ 2 0 -150 50 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # keyboard_parts_GND
 #
 DEF keyboard_parts_GND #PWR 0 0 Y Y 1 F P
@@ -116,6 +149,22 @@ DRAW
 P 4 0 1 0 0 -65 25 -40 -25 -40 0 -65 N
 P 3 1 1 0 0 0 0 -40 0 -40 N
 X +5V 1 0 0 0 U 10 20 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# keyboard_parts_KEYSW
+#
+DEF keyboard_parts_KEYSW K? 0 40 Y Y 1 F N
+F0 "K?" -50 0 60 H V C CNN
+F1 "keyboard_parts_KEYSW" 0 -100 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -200 0 50 0 1 0 N
+C 200 0 50 0 1 0 N
+P 2 0 1 10 -200 50 150 150 N
+X ~ 1 300 0 50 L 60 60 1 1 P
+X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
