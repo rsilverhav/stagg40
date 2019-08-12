@@ -235,17 +235,6 @@ F 3 "" H 12650 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K114
-U 1 1 5D1EA166
-P 13450 4150
-F 0 "K114" H 13450 4383 60  0000 C CNN
-F 1 "KEYSW" H 13450 4050 60  0001 C CNN
-F 2 "keebs:Mx_Alps_100" H 13450 4150 60  0001 C CNN
-F 3 "" H 13450 4150 60  0000 C CNN
-	1    13450 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L keyboard_parts:D D109
 U 1 1 5D1EA170
 P 9950 4450
@@ -287,17 +276,6 @@ F 1 "D" V 12500 4400 60  0001 C CNN
 F 2 "keyboard_parts:D_SC79" H 12350 4450 60  0001 C CNN
 F 3 "" H 12350 4450 60  0000 C CNN
 	1    12350 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L keyboard_parts:D D113
-U 1 1 5D1EA198
-P 13150 4450
-F 0 "D113" H 13022 4400 60  0000 R CNN
-F 1 "D" V 13300 4400 60  0001 C CNN
-F 2 "keyboard_parts:D_SC79" H 13150 4450 60  0001 C CNN
-F 3 "" H 13150 4450 60  0000 C CNN
-	1    13150 4450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1082,9 +1060,6 @@ Wire Wire Line
 Connection ~ 11550 4500
 Wire Wire Line
 	11550 4500 12350 4500
-Connection ~ 12350 4500
-Wire Wire Line
-	12350 4500 13150 4500
 Wire Wire Line
 	4200 4150 4200 5100
 Wire Wire Line
@@ -1313,8 +1288,6 @@ Wire Wire Line
 	12950 5100 12850 5100
 Connection ~ 12850 5100
 Wire Wire Line
-	13150 4150 13150 4300
-Wire Wire Line
 	5150 6850 5150 7000
 Wire Wire Line
 	4350 6850 4350 7000
@@ -1410,8 +1383,6 @@ Wire Wire Line
 	6550 6850 6500 6850
 Connection ~ 6550 5950
 Wire Wire Line
-	13750 3950 13750 4150
-Wire Wire Line
 	12150 4000 12150 4150
 Connection ~ 12150 4150
 Wire Wire Line
@@ -1461,8 +1432,6 @@ Connection ~ 3550 6300
 Wire Wire Line
 	3550 6300 4350 6300
 Connection ~ 4350 7200
-Text HLabel 13750 3950 1    50   Input ~ 0
-COL13
 Text HLabel 3250 4500 0    50   Input ~ 0
 ROW1
 Text HLabel 3250 5450 0    50   Input ~ 0
