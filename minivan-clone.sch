@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:minivan-clone-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -70,7 +70,7 @@ F 3 "" H 9100 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 CON101
+L minivan-clone-rescue:HRO-TYPE-C-31-M-12-Type-C CON101
 U 1 1 5D1BD550
 P 1850 2100
 F 0 "CON101" H 1683 2897 60  0000 C CNN
