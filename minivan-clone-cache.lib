@@ -208,11 +208,11 @@ X ~ 3 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minivan-clone-rescue_HRO-TYPE-C-31-M-12-Type-C
+# minivan-clone-rescue_HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue
 #
-DEF minivan-clone-rescue_HRO-TYPE-C-31-M-12-Type-C USB 0 40 Y Y 1 F N
+DEF minivan-clone-rescue_HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue USB 0 40 Y Y 1 F N
 F0 "USB" -200 650 60 H V C CNN
-F1 "minivan-clone-rescue_HRO-TYPE-C-31-M-12-Type-C" -400 -50 60 V V C CNN
+F1 "minivan-clone-rescue_HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue" -400 -50 60 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:minivan-clone-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -92,17 +92,6 @@ F 3 "" H 9600 5700 60  0000 C CNN
 	1    9600 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L keyboard_parts:C C104
-U 1 1 5D1C40AA
-P 10100 5700
-F 0 "C104" H 10230 5746 50  0000 L CNN
-F 1 "0,1uF" H 10230 5655 50  0000 L CNN
-F 2 "keyboard_parts:C_1608_rev2" H 10100 5700 60  0001 C CNN
-F 3 "" H 10100 5700 60  0000 C CNN
-	1    10100 5700
-	1    0    0    -1  
-$EndComp
 Text Notes 8850 6200 0    50   ~ 0
 Local decoupling for MCU per pin
 $Comp
@@ -168,8 +157,6 @@ Wire Wire Line
 	11050 1850 10900 1850
 Wire Wire Line
 	11050 1850 11050 2000
-Wire Wire Line
-	10100 5500 9600 5500
 Connection ~ 7350 5500
 Wire Wire Line
 	7350 5500 6200 5500
@@ -177,7 +164,6 @@ Connection ~ 8500 5500
 Connection ~ 9100 5500
 Wire Wire Line
 	9100 5500 8500 5500
-Connection ~ 9600 5500
 Wire Wire Line
 	9600 5500 9100 5500
 Connection ~ 7350 5900
@@ -186,9 +172,6 @@ Wire Wire Line
 Connection ~ 9100 5900
 Wire Wire Line
 	9100 5900 9600 5900
-Connection ~ 9600 5900
-Wire Wire Line
-	9600 5900 10100 5900
 Wire Wire Line
 	10300 1800 10300 1850
 Connection ~ 10300 1850
@@ -354,15 +337,9 @@ PC5
 Text Label 9000 1650 0    50   ~ 0
 PC4
 Text Label 9000 1250 0    50   ~ 0
-DN
+D-
 Text Label 9000 1350 0    50   ~ 0
-DP
-Text Label 9250 2550 0    50   ~ 0
-MISO
-Text Label 6200 2550 0    50   ~ 0
-MOSI
-Text Label 6200 2450 0    50   ~ 0
-SCK
+D+
 Text Label 9000 1850 0    50   ~ 0
 RST
 Wire Wire Line
@@ -383,10 +360,6 @@ Wire Wire Line
 	6500 1650 6850 1650
 Wire Wire Line
 	6500 1550 6850 1550
-Text Label 6200 1750 0    50   ~ 0
-RX
-Text Label 6200 1850 0    50   ~ 0
-TX
 Wire Wire Line
 	6200 1750 6850 1750
 Wire Wire Line
@@ -403,19 +376,19 @@ F 3 "" V 2750 1650 60  0000 C CNN
 	1    2750 1650
 	1    0    0    -1  
 $EndComp
-Text Label 2750 4500 0    50   ~ 0
-PC2
-Text Label 2750 4600 0    50   ~ 0
-PD0
-Text Label 2750 4700 0    50   ~ 0
-PD1
 Text Label 2750 4900 0    50   ~ 0
-PD4
-Text Label 2750 5000 0    50   ~ 0
-PD5
-Text Label 2750 5100 0    50   ~ 0
-PD6
+PC2
+Text Label 2750 5500 0    50   ~ 0
+PD0
+Text Label 2750 5300 0    50   ~ 0
+PD3
 Text Label 2750 5200 0    50   ~ 0
+PD4
+Text Label 2750 5100 0    50   ~ 0
+PD5
+Text Label 2750 4500 0    50   ~ 0
+PD6
+Text Label 2750 5000 0    50   ~ 0
 PB0
 Text Label 2750 5600 0    50   ~ 0
 PB4
@@ -429,13 +402,11 @@ Text Label 2750 6000 0    50   ~ 0
 PC5
 Text Label 2750 6100 0    50   ~ 0
 PC4
-Text Label 2750 5300 0    50   ~ 0
+Text Label 2750 4700 0    50   ~ 0
 PB1
-Text Label 2750 5400 0    50   ~ 0
-PB2
-Text Label 2750 5500 0    50   ~ 0
+Text Label 2750 4600 0    50   ~ 0
 PB3
-Text Label 2750 4800 0    50   ~ 0
+Text Label 2750 5400 0    50   ~ 0
 PD2
 Wire Wire Line
 	2750 4500 2650 4500
@@ -455,8 +426,6 @@ Wire Wire Line
 	2650 5200 2750 5200
 Wire Wire Line
 	2650 5300 2750 5300
-Wire Wire Line
-	2650 5400 2750 5400
 Wire Wire Line
 	2650 5500 2750 5500
 Wire Wire Line
@@ -503,7 +472,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2750 1950 2650
 $Comp
-L minivan-clone-rescue:HRO-TYPE-C-31-M-12-Type-C CON101
+L minivan-clone-rescue:HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue CON101
 U 1 1 5D1BD550
 P 1850 2100
 F 0 "CON101" H 1683 2897 60  0000 C CNN
@@ -670,15 +639,15 @@ F 3 "" H 5250 4500 50  0001 C CNN
 	1    5250 4500
 	1    0    0    -1  
 $EndComp
-Text Label 4750 4000 0    50   ~ 0
-D-
 Text Label 5750 4000 0    50   ~ 0
-D+
+pre_D-
+Text Label 4750 4000 0    50   ~ 0
+pre_D+
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5D78AA14
 P 5250 3500
-F 0 "#PWR?" H 5250 3350 50  0001 C CNN
+F 0 "#PWR0102" H 5250 3350 50  0001 C CNN
 F 1 "+5V" H 5265 3673 50  0000 C CNN
 F 2 "" H 5250 3500 50  0001 C CNN
 F 3 "" H 5250 3500 50  0001 C CNN
@@ -686,10 +655,10 @@ F 3 "" H 5250 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0114
 U 1 1 5D78B5BE
 P 3000 1650
-F 0 "#PWR?" H 3000 1500 50  0001 C CNN
+F 0 "#PWR0114" H 3000 1500 50  0001 C CNN
 F 1 "+5V" V 3015 1778 50  0000 L CNN
 F 2 "" H 3000 1650 50  0001 C CNN
 F 3 "" H 3000 1650 50  0001 C CNN
@@ -697,10 +666,10 @@ F 3 "" H 3000 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0115
 U 1 1 5D78C361
 P 6850 1350
-F 0 "#PWR?" H 6850 1200 50  0001 C CNN
+F 0 "#PWR0115" H 6850 1200 50  0001 C CNN
 F 1 "+5V" V 6865 1478 50  0000 L CNN
 F 2 "" H 6850 1350 50  0001 C CNN
 F 3 "" H 6850 1350 50  0001 C CNN
@@ -708,10 +677,10 @@ F 3 "" H 6850 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0116
 U 1 1 5D78C75A
 P 9000 1050
-F 0 "#PWR?" H 9000 900 50  0001 C CNN
+F 0 "#PWR0116" H 9000 900 50  0001 C CNN
 F 1 "+5V" V 9015 1178 50  0000 L CNN
 F 2 "" H 9000 1050 50  0001 C CNN
 F 3 "" H 9000 1050 50  0001 C CNN
@@ -733,10 +702,10 @@ Wire Wire Line
 	9000 1050 9000 1150
 Connection ~ 9000 1050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5D792811
 P 9000 1450
-F 0 "#PWR?" H 9000 1200 50  0001 C CNN
+F 0 "#PWR0117" H 9000 1200 50  0001 C CNN
 F 1 "GND" V 9005 1322 50  0000 R CNN
 F 2 "" H 9000 1450 50  0001 C CNN
 F 3 "" H 9000 1450 50  0001 C CNN
@@ -744,10 +713,10 @@ F 3 "" H 9000 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0118
 U 1 1 5D792F03
 P 10300 1300
-F 0 "#PWR?" H 10300 1150 50  0001 C CNN
+F 0 "#PWR0118" H 10300 1150 50  0001 C CNN
 F 1 "+5V" H 10315 1473 50  0000 C CNN
 F 2 "" H 10300 1300 50  0001 C CNN
 F 3 "" H 10300 1300 50  0001 C CNN
@@ -755,10 +724,10 @@ F 3 "" H 10300 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0119
 U 1 1 5D793283
 P 8150 5500
-F 0 "#PWR?" H 8150 5350 50  0001 C CNN
+F 0 "#PWR0119" H 8150 5350 50  0001 C CNN
 F 1 "+5V" H 8165 5673 50  0000 C CNN
 F 2 "" H 8150 5500 50  0001 C CNN
 F 3 "" H 8150 5500 50  0001 C CNN
@@ -768,4 +737,12 @@ $EndComp
 Connection ~ 8150 5500
 Wire Wire Line
 	8150 5500 8500 5500
+Text Label 2600 2050 0    50   ~ 0
+pre_D-
+Text Label 2600 1950 0    50   ~ 0
+pre_D+
+Wire Wire Line
+	2650 5400 2750 5400
+Text Label 2750 4800 0    50   ~ 0
+PB2
 $EndSCHEMATC
