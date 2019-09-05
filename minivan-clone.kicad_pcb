@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-1)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -618,7 +618,7 @@
   )
 
   (module keebs:Mx_Alps_125 (layer F.Cu) (tedit 58057BA3) (tstamp 5D1F9769)
-    (at 299.07038 195.15)
+    (at 299.06875 195.15)
     (descr MXALPS)
     (tags MXALPS)
     (path /5D1BE8F7/5D219446)
@@ -666,7 +666,7 @@
   )
 
   (module keebs:Mx_Alps_225 (layer F.Cu) (tedit 58057C63) (tstamp 5D1F9744)
-    (at 265.731792 195.15 180)
+    (at 265.73125 195.15 180)
     (descr MXALPS)
     (tags MXALPS)
     (path /5D1BE8F7/5D2193F6)
@@ -758,7 +758,7 @@
   )
 
   (module keebs:Mx_Alps_225 (layer F.Cu) (tedit 58057C63) (tstamp 5D1F971F)
-    (at 222.868204 195.15 180)
+    (at 222.86875 195.15 180)
     (descr MXALPS)
     (tags MXALPS)
     (path /5D1BE8F7/5D2193E2)
@@ -850,7 +850,7 @@
   )
 
   (module keebs:Mx_Alps_125 (layer F.Cu) (tedit 58057BA3) (tstamp 5D1F96FA)
-    (at 189.529616 195.15)
+    (at 189.53125 195.15)
     (descr MXALPS)
     (tags MXALPS)
     (path /5D1BE8F7/5D2193CE)
@@ -1186,7 +1186,7 @@
   )
 
   (module keebs:Mx_Alps_100 (layer F.Cu) (tedit 58057B75) (tstamp 5D1F978E)
-    (at 320.501448 195.15)
+    (at 320.5 195.15)
     (descr MXALPS)
     (tags MXALPS)
     (path /5D1BE8F7/5D21945A)
@@ -1234,7 +1234,7 @@
   )
 
   (module keebs:Mx_Alps_100 (layer F.Cu) (tedit 58057B75) (tstamp 5D1F96D5)
-    (at 168.098548 195.15)
+    (at 168.1 195.15)
     (descr MXALPS)
     (tags MXALPS)
     (path /5D1BE8F7/5D219432)
