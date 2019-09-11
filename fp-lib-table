@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name keebs)(type KiCad)(uri ${KIPRJMOD}/keebs.pretty-master)(options "")(descr ""))
+  (lib (name icon)(type KiCad)(uri ${KIPRJMOD}/icon_mod)(options "")(descr ""))
 )
