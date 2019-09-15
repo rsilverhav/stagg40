@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:minivan-clone-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -376,35 +376,25 @@ F 3 "" V 2750 1650 60  0000 C CNN
 	1    2750 1650
 	1    0    0    -1  
 $EndComp
-Text Label 2750 4900 0    50   ~ 0
-PC2
-Text Label 2750 5500 0    50   ~ 0
-PD0
-Text Label 2750 5300 0    50   ~ 0
-PD3
 Text Label 2750 5200 0    50   ~ 0
-PD4
-Text Label 2750 5100 0    50   ~ 0
-PD5
-Text Label 2750 4500 0    50   ~ 0
-PD6
+PC5
 Text Label 2750 4600 0    50   ~ 0
-PB0
-Text Label 2750 5600 0    50   ~ 0
-PB4
-Text Label 2750 5700 0    50   ~ 0
-PB5
+PD0
+Text Label 2750 5000 0    50   ~ 0
+PC6
+Text Label 2750 5900 0    50   ~ 0
+PD6
 Text Label 2750 5800 0    50   ~ 0
-PB6
-Text Label 2750 6000 0    50   ~ 0
-PB7
-Text Label 2750 6100 0    50   ~ 0
-PC4
+PB0
 Text Label 2750 4700 0    50   ~ 0
+PD1
+Text Label 2750 5100 0    50   ~ 0
+PC4
+Text Label 2750 5700 0    50   ~ 0
 PB1
-Text Label 2750 4800 0    50   ~ 0
+Text Label 2750 4900 0    50   ~ 0
 PB3
-Text Label 2750 5400 0    50   ~ 0
+Text Label 2750 4800 0    50   ~ 0
 PD2
 Wire Wire Line
 	2750 4500 2650 4500
@@ -470,7 +460,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2750 1950 2650
 $Comp
-L minivan-clone-rescue:HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue CON101
+L minivan-clone-rescue:HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue-minivan-clone-rescue CON101
 U 1 1 5D1BD550
 P 1850 2100
 F 0 "CON101" H 1683 2897 60  0000 C CNN
@@ -487,7 +477,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 5900 8150 5900
 $Comp
-L power:GND #PWR0101
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0101
 U 1 1 5D783424
 P 9900 1150
 F 0 "#PWR0101" H 9900 900 50  0001 C CNN
@@ -498,7 +488,7 @@ F 3 "" H 9900 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0103
 U 1 1 5D783D84
 P 11050 2000
 F 0 "#PWR0103" H 11050 1750 50  0001 C CNN
@@ -509,7 +499,7 @@ F 3 "" H 11050 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0104
 U 1 1 5D7843A4
 P 10300 2350
 F 0 "#PWR0104" H 10300 2100 50  0001 C CNN
@@ -520,7 +510,7 @@ F 3 "" H 10300 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0105
 U 1 1 5D784B88
 P 5850 2750
 F 0 "#PWR0105" H 5850 2500 50  0001 C CNN
@@ -531,7 +521,7 @@ F 3 "" H 5850 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0106
 U 1 1 5D784E14
 P 6850 1250
 F 0 "#PWR0106" H 6850 1000 50  0001 C CNN
@@ -542,7 +532,7 @@ F 3 "" H 6850 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0107
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0107
 U 1 1 5D785521
 P 5350 1800
 F 0 "#PWR0107" H 5350 1550 50  0001 C CNN
@@ -553,7 +543,7 @@ F 3 "" H 5350 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0108
 U 1 1 5D7857C7
 P 4750 1800
 F 0 "#PWR0108" H 4750 1550 50  0001 C CNN
@@ -565,7 +555,7 @@ F 3 "" H 4750 1800 50  0001 C CNN
 $EndComp
 Connection ~ 4750 1800
 $Comp
-L power:GND #PWR0109
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0109
 U 1 1 5D785DFD
 P 1950 1550
 F 0 "#PWR0109" H 1950 1300 50  0001 C CNN
@@ -576,7 +566,7 @@ F 3 "" H 1950 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0110
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0110
 U 1 1 5D7865E1
 P 1950 2750
 F 0 "#PWR0110" H 1950 2500 50  0001 C CNN
@@ -588,7 +578,7 @@ F 3 "" H 1950 2750 50  0001 C CNN
 $EndComp
 Connection ~ 1950 2750
 $Comp
-L power:GND #PWR0111
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0111
 U 1 1 5D78689D
 P 2500 3100
 F 0 "#PWR0111" H 2500 2850 50  0001 C CNN
@@ -602,7 +592,7 @@ Connection ~ 2500 3100
 Wire Wire Line
 	2500 3100 2700 3100
 $Comp
-L power:GND #PWR0112
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0112
 U 1 1 5D786B67
 P 8150 5900
 F 0 "#PWR0112" H 8150 5650 50  0001 C CNN
@@ -616,7 +606,7 @@ Connection ~ 8150 5900
 Wire Wire Line
 	8150 5900 8500 5900
 $Comp
-L Power_Protection:PRTR5V0U2X D202
+L minivan-clone-rescue:PRTR5V0U2X-Power_Protection-minivan-clone-rescue-minivan-clone-rescue D202
 U 1 1 5D787265
 P 5250 4000
 F 0 "D202" H 5794 4046 50  0000 L CNN
@@ -627,7 +617,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 5310 400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0113
 U 1 1 5D7884C0
 P 5250 4500
 F 0 "#PWR0113" H 5250 4250 50  0001 C CNN
@@ -642,7 +632,7 @@ pre_D-
 Text Label 4750 4000 0    50   ~ 0
 pre_D+
 $Comp
-L power:+5V #PWR0102
+L minivan-clone-rescue:+5V-power-minivan-clone-rescue-minivan-clone-rescue #PWR0102
 U 1 1 5D78AA14
 P 5250 3500
 F 0 "#PWR0102" H 5250 3350 50  0001 C CNN
@@ -653,7 +643,7 @@ F 3 "" H 5250 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0114
+L minivan-clone-rescue:+5V-power-minivan-clone-rescue-minivan-clone-rescue #PWR0114
 U 1 1 5D78B5BE
 P 3000 1650
 F 0 "#PWR0114" H 3000 1500 50  0001 C CNN
@@ -664,7 +654,7 @@ F 3 "" H 3000 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0115
+L minivan-clone-rescue:+5V-power-minivan-clone-rescue-minivan-clone-rescue #PWR0115
 U 1 1 5D78C361
 P 6850 1350
 F 0 "#PWR0115" H 6850 1200 50  0001 C CNN
@@ -675,7 +665,7 @@ F 3 "" H 6850 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0116
+L minivan-clone-rescue:+5V-power-minivan-clone-rescue-minivan-clone-rescue #PWR0116
 U 1 1 5D78C75A
 P 9000 1050
 F 0 "#PWR0116" H 9000 900 50  0001 C CNN
@@ -700,7 +690,7 @@ Wire Wire Line
 	9000 1050 9000 1150
 Connection ~ 9000 1050
 $Comp
-L power:GND #PWR0117
+L minivan-clone-rescue:GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR0117
 U 1 1 5D792811
 P 9000 1450
 F 0 "#PWR0117" H 9000 1200 50  0001 C CNN
@@ -711,7 +701,7 @@ F 3 "" H 9000 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0118
+L minivan-clone-rescue:+5V-power-minivan-clone-rescue-minivan-clone-rescue #PWR0118
 U 1 1 5D792F03
 P 10300 1300
 F 0 "#PWR0118" H 10300 1150 50  0001 C CNN
@@ -722,7 +712,7 @@ F 3 "" H 10300 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0119
+L minivan-clone-rescue:+5V-power-minivan-clone-rescue-minivan-clone-rescue #PWR0119
 U 1 1 5D793283
 P 8150 5500
 F 0 "#PWR0119" H 8150 5350 50  0001 C CNN
@@ -741,8 +731,18 @@ Text Label 2600 1950 0    50   ~ 0
 pre_D+
 Wire Wire Line
 	2650 5400 2750 5400
-Text Label 2750 5000 0    50   ~ 0
+Text Label 2750 5600 0    50   ~ 0
 PB2
-Text Label 2750 5900 0    50   ~ 0
-PC6
+Text Label 2750 4500 0    50   ~ 0
+PC7
+Text Label 2750 5400 0    50   ~ 0
+PB5
+Text Label 2750 6100 0    50   ~ 0
+PD4
+Text Label 2750 5500 0    50   ~ 0
+PB4
+Text Label 2750 6000 0    50   ~ 0
+PD5
+Text Label 2750 5300 0    50   ~ 0
+PB6
 $EndSCHEMATC
