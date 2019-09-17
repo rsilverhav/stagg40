@@ -171,11 +171,11 @@ X ~ 3 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minivan-clone-rescue_+5V-power-minivan-clone-rescue
+# minivan-clone-rescue_+5V-power-minivan-clone-rescue-minivan-clone-rescue
 #
-DEF minivan-clone-rescue_+5V-power-minivan-clone-rescue #PWR 0 0 Y Y 1 F P
+DEF minivan-clone-rescue_+5V-power-minivan-clone-rescue-minivan-clone-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "minivan-clone-rescue_+5V-power-minivan-clone-rescue" 0 140 50 H V C CNN
+F1 "minivan-clone-rescue_+5V-power-minivan-clone-rescue-minivan-clone-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -186,11 +186,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# minivan-clone-rescue_GND-power-minivan-clone-rescue
+# minivan-clone-rescue_GND-power-minivan-clone-rescue-minivan-clone-rescue
 #
-DEF minivan-clone-rescue_GND-power-minivan-clone-rescue #PWR 0 0 Y Y 1 F P
+DEF minivan-clone-rescue_GND-power-minivan-clone-rescue-minivan-clone-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "minivan-clone-rescue_GND-power-minivan-clone-rescue" 0 -150 50 H V C CNN
+F1 "minivan-clone-rescue_GND-power-minivan-clone-rescue-minivan-clone-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -225,11 +225,11 @@ X SBU1 9 100 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# minivan-clone-rescue_PRTR5V0U2X-Power_Protection-minivan-clone-rescue
+# minivan-clone-rescue_PRTR5V0U2X-Power_Protection-minivan-clone-rescue-minivan-clone-rescue
 #
-DEF minivan-clone-rescue_PRTR5V0U2X-Power_Protection-minivan-clone-rescue D 0 0 Y Y 1 F N
+DEF minivan-clone-rescue_PRTR5V0U2X-Power_Protection-minivan-clone-rescue-minivan-clone-rescue D 0 0 Y Y 1 F N
 F0 "D" 110 340 50 H V C CNN
-F1 "minivan-clone-rescue_PRTR5V0U2X-Power_Protection-minivan-clone-rescue" 320 -370 50 H V C CNN
+F1 "minivan-clone-rescue_PRTR5V0U2X-Power_Protection-minivan-clone-rescue-minivan-clone-rescue" 320 -370 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-143" 60 0 50 H I C CNN
 F3 "" 60 0 50 H I C CNN
 $FPLIST
