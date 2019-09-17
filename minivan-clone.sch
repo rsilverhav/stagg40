@@ -376,29 +376,25 @@ F 3 "" V 2750 1650 60  0000 C CNN
 	1    2750 1650
 	1    0    0    -1  
 $EndComp
-Text Label 2750 4800 0    50   ~ 0
+Text Label 2750 5400 0    50   ~ 0
 PC2
-Text Label 2750 5500 0    50   ~ 0
+Text Label 2750 4600 0    50   ~ 0
 PD0
 Text Label 2750 5300 0    50   ~ 0
 PD3
-Text Label 2750 6000 0    50   ~ 0
-PD5
 Text Label 2750 5900 0    50   ~ 0
 PD6
 Text Label 2750 5800 0    50   ~ 0
 PB0
 Text Label 2750 4700 0    50   ~ 0
-PB5
-Text Label 2750 4600 0    50   ~ 0
-PB6
+PD1
 Text Label 2750 5100 0    50   ~ 0
 PB7
 Text Label 2750 5700 0    50   ~ 0
 PB1
 Text Label 2750 4900 0    50   ~ 0
 PB3
-Text Label 2750 5400 0    50   ~ 0
+Text Label 2750 4800 0    50   ~ 0
 PD2
 Wire Wire Line
 	2750 4500 2650 4500
@@ -743,6 +739,10 @@ Text Label 2750 5200 0    50   ~ 0
 PC4
 Text Label 2750 6100 0    50   ~ 0
 PD4
-Text Label 2750 5000 0    50   ~ 0
+Text Label 2750 5500 0    50   ~ 0
 PB4
+Text Label 2750 6000 0    50   ~ 0
+PD5
+Text Label 2750 5000 0    50   ~ 0
+PB6
 $EndSCHEMATC
