@@ -47,4 +47,6 @@
   (fp_line (start -8.6106 -5.6896) (end -8.6106 -4.8768) (layer Eco2.User) (width 0.1524))
   (fp_line (start -8.6106 -4.8768) (end -6.985 -4.8768) (layer Eco2.User) (width 0.1524))
   (fp_line (start -6.985 -4.8768) (end -6.985 -6.985) (layer Eco2.User) (width 0.1524))
+  (fp_poly (pts (xy 6.985 6.985) (xy -6.985 6.985) (xy -6.985 -6.985) (xy 6.985 -6.985)) (layer F.Mask) (width 2))
+  (fp_poly (pts (xy 6.985 6.985) (xy -6.985 6.985) (xy -6.985 -6.985) (xy 6.985 -6.985)) (layer B.Mask) (width 2))
 )
