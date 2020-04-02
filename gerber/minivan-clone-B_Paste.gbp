@@ -2,7 +2,7 @@ G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
 G04 #@! TF.CreationDate,2020-04-02T19:23:22+02:00*
 G04 #@! TF.ProjectId,minivan-clone,6d696e69-7661-46e2-9d63-6c6f6e652e6b,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Legend,Bot*
+G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
