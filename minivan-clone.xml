@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/robin/dev/keyboard/stagg40/minivan-clone.sch</source>
+    <date>2020 April 20, Monday 11:20:46</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>minivan-clone.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW101">
+      <value>SW_PUSH</value>
+      <footprint>keyboard_parts:SW_ALPS_SKRP</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1BA0DC</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>10K</value>
+      <footprint>keyboard_parts:R_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1BB3BE</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>0,1uF</value>
+      <footprint>keyboard_parts:C_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1BBCC2</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>0,1uF</value>
+      <footprint>keyboard_parts:C_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1BFB49</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0,1uF</value>
+      <footprint>keyboard_parts:C_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1C39D0</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>4,7uF</value>
+      <footprint>keyboard_parts:C_3216_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CD4D4</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>4,7uF</value>
+      <footprint>keyboard_parts:C_3216_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CE271</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>C_xtal</value>
+      <footprint>keyboard_parts:C_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CED3B</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>C_xtal</value>
+      <footprint>keyboard_parts:C_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CF837</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>0,1uF</value>
+      <footprint>keyboard_parts:C_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1D3B2B</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>10K</value>
+      <footprint>keyboard_parts:R_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1DD6FF</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>1uF</value>
+      <footprint>keyboard_parts:C_3216_rev2</footprint>
+      <libsource lib="keyboard_parts" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1EB00E</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>22R</value>
+      <footprint>keyboard_parts:R_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1FF491</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>22R</value>
+      <footprint>keyboard_parts:R_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2005EA</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>5K1</value>
+      <footprint>keyboard_parts:R_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D207047</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>5K1</value>
+      <footprint>keyboard_parts:R_1608_rev2</footprint>
+      <libsource lib="keyboard_parts" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2086F0</tstamp>
+    </comp>
+    <comp ref="PTC101">
+      <value>PTC</value>
+      <footprint>keyboard_parts:C_3216_rev2</footprint>
+      <libsource lib="keyboard_parts" part="PTC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1BC4A9</tstamp>
+    </comp>
+    <comp ref="X101">
+      <value>XTAL_GND</value>
+      <footprint>keyboard_parts:FA-238</footprint>
+      <libsource lib="keyboard_parts" part="XTAL_GND" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D25544A</tstamp>
+    </comp>
+    <comp ref="CON101">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <footprint>Type-C:HRO-TYPE-C-31-M-12-HandSoldering</footprint>
+      <libsource lib="minivan-clone-rescue" part="HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue-minivan-clone-rescue-minivan-clone-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1BD550</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>PRTR5V0U2X</value>
+      <footprint>Package_TO_SOT_SMD:SOT-143</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</datasheet>
+      <libsource lib="minivan-clone-rescue" part="PRTR5V0U2X-Power_Protection-minivan-clone-rescue-minivan-clone-rescue-minivan-clone-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D787265</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>ATMEGA32U2</value>
+      <footprint>keyboard_parts:QFP32</footprint>
+      <libsource lib="keyboard_parts" part="ATMEGA32U2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B3996</tstamp>
+    </comp>
+    <comp ref="K113">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2316B2</tstamp>
+    </comp>
+    <comp ref="K112">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2323A6</tstamp>
+    </comp>
+    <comp ref="K111">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2329BA</tstamp>
+    </comp>
+    <comp ref="K110">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2330B2</tstamp>
+    </comp>
+    <comp ref="K109">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D233536</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1DDEE8</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E3206</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E3A7D</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E4114</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E4764</tstamp>
+    </comp>
+    <comp ref="K108">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E5F7E</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E5F88</tstamp>
+    </comp>
+    <comp ref="K107">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E729A</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E72A4</tstamp>
+    </comp>
+    <comp ref="K106">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E80DC</tstamp>
+    </comp>
+    <comp ref="D108">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1E80E6</tstamp>
+    </comp>
+    <comp ref="K105">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA13E</tstamp>
+    </comp>
+    <comp ref="K104">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA148</tstamp>
+    </comp>
+    <comp ref="K103">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA152</tstamp>
+    </comp>
+    <comp ref="K102">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA15C</tstamp>
+    </comp>
+    <comp ref="D109">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA170</tstamp>
+    </comp>
+    <comp ref="D110">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA17A</tstamp>
+    </comp>
+    <comp ref="D111">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA184</tstamp>
+    </comp>
+    <comp ref="D112">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA18E</tstamp>
+    </comp>
+    <comp ref="K123">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA1A2</tstamp>
+    </comp>
+    <comp ref="D117">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA1AC</tstamp>
+    </comp>
+    <comp ref="K122">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA1B6</tstamp>
+    </comp>
+    <comp ref="D118">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA1C0</tstamp>
+    </comp>
+    <comp ref="K121">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA1CA</tstamp>
+    </comp>
+    <comp ref="D119">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA1D4</tstamp>
+    </comp>
+    <comp ref="K126">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1F95AC</tstamp>
+    </comp>
+    <comp ref="D114">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1F95B6</tstamp>
+    </comp>
+    <comp ref="K125">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1F95C0</tstamp>
+    </comp>
+    <comp ref="D115">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1F95CA</tstamp>
+    </comp>
+    <comp ref="K124">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1F95D4</tstamp>
+    </comp>
+    <comp ref="D116">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1F95DE</tstamp>
+    </comp>
+    <comp ref="K120">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2001FE</tstamp>
+    </comp>
+    <comp ref="D120">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200208</tstamp>
+    </comp>
+    <comp ref="K119">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200212</tstamp>
+    </comp>
+    <comp ref="D121">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20021C</tstamp>
+    </comp>
+    <comp ref="K118">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200226</tstamp>
+    </comp>
+    <comp ref="K116">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200230</tstamp>
+    </comp>
+    <comp ref="K115">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20023A</tstamp>
+    </comp>
+    <comp ref="K114">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200244</tstamp>
+    </comp>
+    <comp ref="D122">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200258</tstamp>
+    </comp>
+    <comp ref="D123">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200262</tstamp>
+    </comp>
+    <comp ref="D124">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20026C</tstamp>
+    </comp>
+    <comp ref="D125">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D200276</tstamp>
+    </comp>
+    <comp ref="K135">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A802</tstamp>
+    </comp>
+    <comp ref="D129">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A80C</tstamp>
+    </comp>
+    <comp ref="K134">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A816</tstamp>
+    </comp>
+    <comp ref="D130">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A820</tstamp>
+    </comp>
+    <comp ref="K133">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A82A</tstamp>
+    </comp>
+    <comp ref="D131">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A834</tstamp>
+    </comp>
+    <comp ref="K138">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A83E</tstamp>
+    </comp>
+    <comp ref="D126">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A848</tstamp>
+    </comp>
+    <comp ref="K137">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A852</tstamp>
+    </comp>
+    <comp ref="D127">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A85C</tstamp>
+    </comp>
+    <comp ref="K136">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A866</tstamp>
+    </comp>
+    <comp ref="D128">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A870</tstamp>
+    </comp>
+    <comp ref="K132">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A87A</tstamp>
+    </comp>
+    <comp ref="D132">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A884</tstamp>
+    </comp>
+    <comp ref="K131">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A88E</tstamp>
+    </comp>
+    <comp ref="D133">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A898</tstamp>
+    </comp>
+    <comp ref="K130">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8A2</tstamp>
+    </comp>
+    <comp ref="K129">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8AC</tstamp>
+    </comp>
+    <comp ref="K128">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8B6</tstamp>
+    </comp>
+    <comp ref="K127">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8C0</tstamp>
+    </comp>
+    <comp ref="D134">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8CA</tstamp>
+    </comp>
+    <comp ref="D135">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8D4</tstamp>
+    </comp>
+    <comp ref="D136">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8DE</tstamp>
+    </comp>
+    <comp ref="D137">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D20A8E8</tstamp>
+    </comp>
+    <comp ref="K145">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2193CE</tstamp>
+    </comp>
+    <comp ref="D141">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2193D8</tstamp>
+    </comp>
+    <comp ref="K144">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2193E2</tstamp>
+    </comp>
+    <comp ref="D142">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2193EC</tstamp>
+    </comp>
+    <comp ref="K143">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D2193F6</tstamp>
+    </comp>
+    <comp ref="D143">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219400</tstamp>
+    </comp>
+    <comp ref="K148">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D21940A</tstamp>
+    </comp>
+    <comp ref="D138">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219414</tstamp>
+    </comp>
+    <comp ref="K147">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D21941E</tstamp>
+    </comp>
+    <comp ref="D139">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219428</tstamp>
+    </comp>
+    <comp ref="K146">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219432</tstamp>
+    </comp>
+    <comp ref="D140">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D21943C</tstamp>
+    </comp>
+    <comp ref="K142">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219446</tstamp>
+    </comp>
+    <comp ref="D144">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219450</tstamp>
+    </comp>
+    <comp ref="K141">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D21945A</tstamp>
+    </comp>
+    <comp ref="D145">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219464</tstamp>
+    </comp>
+    <comp ref="K140">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D21946E</tstamp>
+    </comp>
+    <comp ref="K139">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219478</tstamp>
+    </comp>
+    <comp ref="D146">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D219482</tstamp>
+    </comp>
+    <comp ref="D147">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D21948C</tstamp>
+    </comp>
+    <comp ref="D113">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SC79</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA198</tstamp>
+    </comp>
+    <comp ref="K101">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/Sheet5D1BE8F6/" tstamps="/5D1BE8F7/"/>
+      <tstamp>5D1EA166</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="keyboard_parts" part="ATMEGA32U2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA32U2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XTAL1" type="input"/>
+        <pin num="2" name="XTAL2" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PC2" type="BiDi"/>
+        <pin num="6" name="PD0" type="BiDi"/>
+        <pin num="7" name="PD1" type="BiDi"/>
+        <pin num="8" name="PD2/RXD1" type="BiDi"/>
+        <pin num="9" name="PD3/TXD1" type="BiDi"/>
+        <pin num="10" name="PD4" type="BiDi"/>
+        <pin num="11" name="PD5" type="BiDi"/>
+        <pin num="12" name="PD6" type="BiDi"/>
+        <pin num="13" name="PD7/~HWB" type="input"/>
+        <pin num="14" name="PB0" type="BiDi"/>
+        <pin num="15" name="PB1" type="BiDi"/>
+        <pin num="16" name="PB2" type="BiDi"/>
+        <pin num="17" name="PB3" type="BiDi"/>
+        <pin num="18" name="PB4" type="BiDi"/>
+        <pin num="19" name="PB5" type="BiDi"/>
+        <pin num="20" name="PB6" type="BiDi"/>
+        <pin num="21" name="PB7" type="BiDi"/>
+        <pin num="22" name="PC7" type="BiDi"/>
+        <pin num="23" name="PC6" type="BiDi"/>
+        <pin num="24" name="~RESET" type="input"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PC4" type="BiDi"/>
+        <pin num="27" name="UCap" type="input"/>
+        <pin num="28" name="UGND" type="power_in"/>
+        <pin num="29" name="D+" type="BiDi"/>
+        <pin num="30" name="D-" type="BiDi"/>
+        <pin num="31" name="UVCC" type="power_in"/>
+        <pin num="32" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="D">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="KEYSW">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="PTC">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PTC</field>
+        <field name="Value">PTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="XTAL_GND">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">XTAL_GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="minivan-clone-rescue" part="HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue-minivan-clone-rescue-minivan-clone-rescue">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12-Type-C-minivan-clone-rescue-minivan-clone-rescue-minivan-clone-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="minivan-clone-rescue" part="PRTR5V0U2X-Power_Protection-minivan-clone-rescue-minivan-clone-rescue-minivan-clone-rescue">
+      <footprints>
+        <fp>SOT?143*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X-Power_Protection-minivan-clone-rescue-minivan-clone-rescue-minivan-clone-rescue</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-143</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="I/O1" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="keyboard_parts">
+      <uri>/Users/robin/dev/keyboard/stagg40/kicad_lib_tmk-master/keyboard_parts.lib</uri>
+    </library>
+    <library logical="minivan-clone-rescue">
+      <uri>/Users/robin/dev/keyboard/stagg40/minivan-clone-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/RST">
+      <node ref="SW101" pin="1"/>
+      <node ref="R101" pin="2"/>
+      <node ref="U101" pin="24"/>
+      <node ref="C109" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R102-Pad1)">
+      <node ref="U101" pin="13"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U101" pin="3"/>
+      <node ref="CON101" pin="1"/>
+      <node ref="CON101" pin="12"/>
+      <node ref="CON101" pin="13"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="R102" pin="2"/>
+      <node ref="C110" pin="1"/>
+      <node ref="C102" pin="2"/>
+      <node ref="D202" pin="1"/>
+      <node ref="U101" pin="28"/>
+      <node ref="R105" pin="2"/>
+      <node ref="R106" pin="2"/>
+      <node ref="X101" pin="3"/>
+    </net>
+    <net code="4" name="Net-(C110-Pad2)">
+      <node ref="U101" pin="27"/>
+      <node ref="C110" pin="2"/>
+    </net>
+    <net code="5" name="/D-">
+      <node ref="U101" pin="30"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="6" name="/D+">
+      <node ref="U101" pin="29"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="7" name="/PC2">
+      <node ref="U101" pin="5"/>
+    </net>
+    <net code="8" name="Net-(CON101-Pad4)">
+      <node ref="R105" pin="1"/>
+      <node ref="CON101" pin="4"/>
+    </net>
+    <net code="9" name="Net-(CON101-Pad10)">
+      <node ref="CON101" pin="10"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="10" name="/PD0">
+      <node ref="D103" pin="1"/>
+      <node ref="D102" pin="1"/>
+      <node ref="D104" pin="1"/>
+      <node ref="D105" pin="1"/>
+      <node ref="D106" pin="1"/>
+      <node ref="D107" pin="1"/>
+      <node ref="D101" pin="1"/>
+      <node ref="D113" pin="1"/>
+      <node ref="D108" pin="1"/>
+      <node ref="D109" pin="1"/>
+      <node ref="D110" pin="1"/>
+      <node ref="D111" pin="1"/>
+      <node ref="D112" pin="1"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="11" name="/PD1">
+      <node ref="D123" pin="1"/>
+      <node ref="D125" pin="1"/>
+      <node ref="D124" pin="1"/>
+      <node ref="D122" pin="1"/>
+      <node ref="D121" pin="1"/>
+      <node ref="D120" pin="1"/>
+      <node ref="D116" pin="1"/>
+      <node ref="D115" pin="1"/>
+      <node ref="D114" pin="1"/>
+      <node ref="D119" pin="1"/>
+      <node ref="D118" pin="1"/>
+      <node ref="D117" pin="1"/>
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="12" name="/PD2">
+      <node ref="D133" pin="1"/>
+      <node ref="D132" pin="1"/>
+      <node ref="D134" pin="1"/>
+      <node ref="D135" pin="1"/>
+      <node ref="D136" pin="1"/>
+      <node ref="D128" pin="1"/>
+      <node ref="D127" pin="1"/>
+      <node ref="D126" pin="1"/>
+      <node ref="D131" pin="1"/>
+      <node ref="D130" pin="1"/>
+      <node ref="D129" pin="1"/>
+      <node ref="D137" pin="1"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="13" name="/PD3">
+      <node ref="U101" pin="9"/>
+    </net>
+    <net code="14" name="/PD4">
+      <node ref="K113" pin="1"/>
+      <node ref="U101" pin="10"/>
+      <node ref="K126" pin="1"/>
+      <node ref="K138" pin="1"/>
+    </net>
+    <net code="15" name="/PD5">
+      <node ref="K125" pin="1"/>
+      <node ref="K148" pin="1"/>
+      <node ref="K137" pin="1"/>
+      <node ref="U101" pin="11"/>
+      <node ref="K112" pin="1"/>
+    </net>
+    <net code="16" name="/PD6">
+      <node ref="K136" pin="1"/>
+      <node ref="K147" pin="1"/>
+      <node ref="U101" pin="12"/>
+      <node ref="K111" pin="1"/>
+      <node ref="K124" pin="1"/>
+    </net>
+    <net code="17" name="/PB0">
+      <node ref="K110" pin="1"/>
+      <node ref="K135" pin="1"/>
+      <node ref="U101" pin="14"/>
+      <node ref="K146" pin="1"/>
+      <node ref="K123" pin="1"/>
+    </net>
+    <net code="18" name="/PB1">
+      <node ref="U101" pin="15"/>
+      <node ref="K145" pin="1"/>
+      <node ref="K134" pin="1"/>
+      <node ref="K109" pin="1"/>
+      <node ref="K122" pin="1"/>
+    </net>
+    <net code="19" name="/PB2">
+      <node ref="U101" pin="16"/>
+      <node ref="K144" pin="1"/>
+      <node ref="K121" pin="1"/>
+      <node ref="K133" pin="1"/>
+      <node ref="K108" pin="1"/>
+    </net>
+    <net code="20" name="/PB3">
+      <node ref="U101" pin="17"/>
+      <node ref="D141" pin="1"/>
+      <node ref="D147" pin="1"/>
+      <node ref="D146" pin="1"/>
+      <node ref="D145" pin="1"/>
+      <node ref="D144" pin="1"/>
+      <node ref="D140" pin="1"/>
+      <node ref="D139" pin="1"/>
+      <node ref="D138" pin="1"/>
+      <node ref="D142" pin="1"/>
+      <node ref="D143" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C107-Pad1)">
+      <node ref="C107" pin="1"/>
+      <node ref="X101" pin="1"/>
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C108-Pad1)">
+      <node ref="C108" pin="1"/>
+      <node ref="U101" pin="2"/>
+      <node ref="X101" pin="2"/>
+    </net>
+    <net code="23" name="Net-(CON101-Pad11)">
+      <node ref="PTC101" pin="1"/>
+      <node ref="CON101" pin="11"/>
+      <node ref="CON101" pin="2"/>
+    </net>
+    <net code="24" name="Net-(CON101-Pad3)">
+      <node ref="CON101" pin="3"/>
+    </net>
+    <net code="25" name="Net-(CON101-Pad9)">
+      <node ref="CON101" pin="9"/>
+    </net>
+    <net code="26" name="/pre_D+">
+      <node ref="D202" pin="2"/>
+      <node ref="CON101" pin="8"/>
+      <node ref="CON101" pin="6"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="27" name="/pre_D-">
+      <node ref="D202" pin="3"/>
+      <node ref="CON101" pin="7"/>
+      <node ref="CON101" pin="5"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="28" name="+5V">
+      <node ref="C102" pin="1"/>
+      <node ref="U101" pin="31"/>
+      <node ref="U101" pin="32"/>
+      <node ref="U101" pin="4"/>
+      <node ref="R101" pin="1"/>
+      <node ref="D202" pin="4"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="C106" pin="1"/>
+      <node ref="PTC101" pin="2"/>
+    </net>
+    <net code="29" name="/PB4">
+      <node ref="K143" pin="1"/>
+      <node ref="K107" pin="1"/>
+      <node ref="K132" pin="1"/>
+      <node ref="K120" pin="1"/>
+      <node ref="U101" pin="18"/>
+    </net>
+    <net code="30" name="/PB5">
+      <node ref="K119" pin="1"/>
+      <node ref="K106" pin="1"/>
+      <node ref="U101" pin="19"/>
+      <node ref="K131" pin="1"/>
+      <node ref="K142" pin="1"/>
+    </net>
+    <net code="31" name="/PB6">
+      <node ref="K105" pin="1"/>
+      <node ref="U101" pin="20"/>
+      <node ref="K141" pin="1"/>
+      <node ref="K118" pin="1"/>
+      <node ref="K130" pin="1"/>
+    </net>
+    <net code="32" name="/PB7">
+      <node ref="U101" pin="21"/>
+    </net>
+    <net code="33" name="/PC7">
+      <node ref="K101" pin="1"/>
+      <node ref="U101" pin="22"/>
+    </net>
+    <net code="34" name="/PC6">
+      <node ref="K102" pin="1"/>
+      <node ref="K114" pin="1"/>
+      <node ref="U101" pin="23"/>
+      <node ref="K127" pin="1"/>
+    </net>
+    <net code="35" name="/PC5">
+      <node ref="U101" pin="25"/>
+      <node ref="K129" pin="1"/>
+      <node ref="K116" pin="1"/>
+      <node ref="K104" pin="1"/>
+      <node ref="K140" pin="1"/>
+    </net>
+    <net code="36" name="/PC4">
+      <node ref="K103" pin="1"/>
+      <node ref="K139" pin="1"/>
+      <node ref="K115" pin="1"/>
+      <node ref="U101" pin="26"/>
+      <node ref="K128" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D101-Pad2)">
+      <node ref="K113" pin="2"/>
+      <node ref="D101" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D102-Pad2)">
+      <node ref="K112" pin="2"/>
+      <node ref="D102" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D103-Pad2)">
+      <node ref="D103" pin="2"/>
+      <node ref="K111" pin="2"/>
+    </net>
+    <net code="40" name="Net-(D104-Pad2)">
+      <node ref="D104" pin="2"/>
+      <node ref="K110" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D105-Pad2)">
+      <node ref="D105" pin="2"/>
+      <node ref="K109" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D106-Pad2)">
+      <node ref="K108" pin="2"/>
+      <node ref="D106" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D107-Pad2)">
+      <node ref="K107" pin="2"/>
+      <node ref="D107" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D108-Pad2)">
+      <node ref="K106" pin="2"/>
+      <node ref="D108" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D109-Pad2)">
+      <node ref="D109" pin="2"/>
+      <node ref="K105" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D110-Pad2)">
+      <node ref="D110" pin="2"/>
+      <node ref="K104" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D111-Pad2)">
+      <node ref="D111" pin="2"/>
+      <node ref="K103" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D112-Pad2)">
+      <node ref="D112" pin="2"/>
+      <node ref="K102" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D117-Pad2)">
+      <node ref="D117" pin="2"/>
+      <node ref="K123" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D118-Pad2)">
+      <node ref="D118" pin="2"/>
+      <node ref="K122" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D119-Pad2)">
+      <node ref="K121" pin="2"/>
+      <node ref="D119" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D114-Pad2)">
+      <node ref="K126" pin="2"/>
+      <node ref="D114" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D115-Pad2)">
+      <node ref="K125" pin="2"/>
+      <node ref="D115" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D116-Pad2)">
+      <node ref="K124" pin="2"/>
+      <node ref="D116" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D120-Pad2)">
+      <node ref="K120" pin="2"/>
+      <node ref="D120" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D121-Pad2)">
+      <node ref="K119" pin="2"/>
+      <node ref="D121" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D122-Pad2)">
+      <node ref="K118" pin="2"/>
+      <node ref="D122" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D123-Pad2)">
+      <node ref="K116" pin="2"/>
+      <node ref="D123" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D124-Pad2)">
+      <node ref="K115" pin="2"/>
+      <node ref="D124" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D125-Pad2)">
+      <node ref="K114" pin="2"/>
+      <node ref="D125" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D129-Pad2)">
+      <node ref="D129" pin="2"/>
+      <node ref="K135" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D130-Pad2)">
+      <node ref="D130" pin="2"/>
+      <node ref="K134" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D131-Pad2)">
+      <node ref="D131" pin="2"/>
+      <node ref="K133" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D126-Pad2)">
+      <node ref="D126" pin="2"/>
+      <node ref="K138" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D127-Pad2)">
+      <node ref="K137" pin="2"/>
+      <node ref="D127" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D128-Pad2)">
+      <node ref="K136" pin="2"/>
+      <node ref="D128" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D132-Pad2)">
+      <node ref="K132" pin="2"/>
+      <node ref="D132" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D133-Pad2)">
+      <node ref="D133" pin="2"/>
+      <node ref="K131" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D134-Pad2)">
+      <node ref="K130" pin="2"/>
+      <node ref="D134" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D135-Pad2)">
+      <node ref="K129" pin="2"/>
+      <node ref="D135" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D136-Pad2)">
+      <node ref="K128" pin="2"/>
+      <node ref="D136" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D137-Pad2)">
+      <node ref="K127" pin="2"/>
+      <node ref="D137" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D141-Pad2)">
+      <node ref="K145" pin="2"/>
+      <node ref="D141" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D142-Pad2)">
+      <node ref="K144" pin="2"/>
+      <node ref="D142" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D143-Pad2)">
+      <node ref="K143" pin="2"/>
+      <node ref="D143" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D138-Pad2)">
+      <node ref="K148" pin="2"/>
+      <node ref="D138" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D139-Pad2)">
+      <node ref="D139" pin="2"/>
+      <node ref="K147" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D140-Pad2)">
+      <node ref="D140" pin="2"/>
+      <node ref="K146" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D144-Pad2)">
+      <node ref="K142" pin="2"/>
+      <node ref="D144" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D145-Pad2)">
+      <node ref="K141" pin="2"/>
+      <node ref="D145" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D146-Pad2)">
+      <node ref="K140" pin="2"/>
+      <node ref="D146" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D147-Pad2)">
+      <node ref="K139" pin="2"/>
+      <node ref="D147" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D113-Pad2)">
+      <node ref="D113" pin="2"/>
+      <node ref="K101" pin="2"/>
+    </net>
+  </nets>
+</export>
